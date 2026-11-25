@@ -1,1 +1,103 @@
 case_id,modele,fichier_trace,cell_id,nature,statut,valeur_centimes_ht,reference_centimes_ht,explication
+C01,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C01,rejeu,juste,792800,792800,
+C02,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C02,rejeu,juste,590320,590320,
+C03,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C03,rejeu,juste,936350,936350,
+C04,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C04,rejeu,juste,2826250,2826250,
+C05,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C05,rejeu,juste,38480,38480,
+C06,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C06,rejeu,juste,0,0,
+C07,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C07,rejeu,juste,13970,13970,
+C08,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C08,rejeu,juste,605580,605580,
+C09,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C09,rejeu,juste,487980,487980,
+C10,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C10,rejeu,juste,558980,558980,
+C11,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C11,rejeu,juste,446690,446690,
+C12,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C12,rejeu,juste,1666490,1666490,
+C13,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C13,rejeu,juste,107740,107740,
+C14,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C14,rejeu,juste,0,0,
+C15,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C15,rejeu,juste,168680,168680,
+C16,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C16,rejeu,juste,376740,376740,
+C17,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C17,rejeu,juste,258180,258180,
+C18,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C18,rejeu,juste,62480,62480,
+C19,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C19,rejeu,juste,1990,1990,
+C20,groq:openai/gpt-oss-120b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-120b:C20,rejeu,juste,1106090,1106090,
+C01,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C01,rejeu,juste,792800,792800,
+C02,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C02,rejeu,faux,440080,590320,La plage de naissances commence au 2000-10-01 au lieu du 2000-09-26 : elle exclut les personnes encore âgées de 25 ans nées du 26 au 30 septembre 2000.
+C03,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C03,rejeu,juste,936350,936350,
+C04,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C04,rejeu,juste,2826250,2826250,
+C05,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C05,rejeu,juste,38480,38480,
+C06,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C06,rejeu,juste,0,0,
+C07,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C07,rejeu,juste,13970,13970,
+C08,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C08,rejeu,juste,605580,605580,
+C09,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C09,rejeu,juste,487980,487980,
+C10,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C10,rejeu,juste,558980,558980,
+C11,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C11,rejeu,faux,0,446690,Le filtre exige birth_date = '2001-12-01' au lieu de retenir tout l'intervalle du 2000-12-02 au 2001-12-01 correspondant à 25 ans au 2026-12-01.
+C12,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C12,rejeu,juste,1666490,1666490,
+C13,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C13,rejeu,juste,107740,107740,
+C14,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C14,rejeu,juste,0,0,
+C15,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C15,rejeu,juste,168680,168680,
+C16,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C16,rejeu,juste,376740,376740,
+C17,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C17,rejeu,juste,258180,258180,
+C18,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C18,rejeu,juste,62480,62480,
+C19,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C19,rejeu,juste,1990,1990,
+C20,groq:openai/gpt-oss-20b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:openai/gpt-oss-20b:C20,rejeu,juste,1106090,1106090,
+C01,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C01,rejeu,juste,792800,792800,
+C02,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C02,rejeu,juste,590320,590320,
+C03,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C03,rejeu,juste,936350,936350,
+C04,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C04,rejeu,juste,2826250,2826250,
+C05,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C05,rejeu,juste,38480,38480,
+C06,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C06,rejeu,juste,0,0,
+C07,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C07,rejeu,juste,13970,13970,
+C08,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C08,rejeu,juste,605580,605580,
+C09,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C09,rejeu,faux,0,487980,L'âge est calculé à la date de chaque commande (o.date) au lieu de la date de référence fixe 2026-09-26 ; les conditions de mois et de jour ne répondent donc pas à C09.
+C10,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C10,rejeu,faux,119410,558980,"La seconde branche teste un écart d'années de 24 avant l'anniversaire ; pour un âge révolu de 25 avant le 26e anniversaire, l'écart brut doit être 26."
+C11,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C11,rejeu,juste,446690,446690,
+C12,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C12,rejeu,juste,1666490,1666490,
+C13,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C13,rejeu,juste,107740,107740,
+C14,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C14,rejeu,juste,0,0,
+C15,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C15,rejeu,faux,0,168680,"Le filtre compare seulement les mois et jours et impose en pratique une naissance à la fois avant et après le 25 septembre, sans contrôler l'année de naissance ; aucune ligne n'est retenue."
+C16,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C16,rejeu,juste,376740,376740,
+C17,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C17,rejeu,faux,248490,258180,"Les bornes sont décalées d'un jour : le SQL exclut les personnes nées le 2001-09-25 et inclut celles nées le 2000-09-25, déjà âgées de 26 ans."
+C18,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C18,rejeu,juste,62480,62480,
+C19,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C19,rejeu,faux,83580,1990,"Le filtre vérifie seulement qu'un 24e ou 25e anniversaire tombe avant 2026, sans imposer que le 26e anniversaire soit après la référence ; il inclut donc plusieurs âges."
+C20,groq:qwen/qwen3.8-27b,traces/traces-pilote-2026-09-25.jsonl,L2:groq:qwen/qwen3.8-27b:C20,rejeu,juste,1106090,1106090,
+C01,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C01,rejeu,juste,792800,792800,
+C02,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C02,rejeu,faux,0,590320,"Le SQL ne calcule pas l'âge : il compare la référence à une chaîne de date impossible construite avec birth_date, le mois et le jour, ce qui exclut toutes les lignes."
+C03,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C03,rejeu,juste,936350,936350,
+C04,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C04,rejeu,juste,2826250,2826250,
+C05,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C05,rejeu,juste,38480,38480,
+C06,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C06,rejeu,juste,0,0,
+C07,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C07,rejeu,juste,13970,13970,
+C08,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C08,rejeu,faux,1188090,605580,"Le filtre conserve toute naissance postérieure au 2000-09-24, donc tous les clients de moins de 26 ans ; il manque la borne au 2001-09-24 pour isoler exactement 25 ans."
+C09,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C09,rejeu,sql_invalide,,487980,"La requête place AS age dans une expression du WHERE, syntaxe SQLite invalide ; elle extrait en plus l'année de naissance au lieu de calculer l'âge."
+C10,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C10,rejeu,sql_invalide,,558980,"La requête place AS age_year après une soustraction dans le WHERE ; un alias n'est pas autorisé à cet endroit, d'où l'erreur de syntaxe près de AS."
+C11,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C11,rejeu,faux,0,446690,"Les deux bornes exigent simultanément une naissance au plus tard le 2026-12-01 et au moins le 2027-12-01, condition impossible ; l'âge de 25 ans n'est jamais calculé."
+C12,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C12,rejeu,juste,1666490,1666490,
+C13,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C13,rejeu,juste,107740,107740,
+C14,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C14,rejeu,juste,0,0,
+C15,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C15,rejeu,juste,168680,168680,
+C16,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C16,rejeu,juste,376740,376740,
+C17,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C17,rejeu,faux,371990,258180,"Le filtre birth_date > date(référence, '-26 years') n'a pas la borne birth_date <= date(référence, '-25 years') ; il retient tous les moins de 26 ans, pas seulement les 25 ans."
+C18,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C18,rejeu,juste,62480,62480,
+C19,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C19,rejeu,faux,11940,1990,Le CASE compare seulement le mois et le jour de naissance au 25 septembre et ignore l'année de naissance ; il retient des clients de plusieurs âges.
+C20,openrouter:cohere/north-mini-code:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:cohere/north-mini-code:free:C20,rejeu,juste,1106090,1106090,
+C01,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C01,rejeu,juste,792800,792800,
+C02,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C02,rejeu,faux,321340,590320,Le filtre exige un écart d'années de 25 et un anniversaire déjà passé ; il oublie les personnes dont l'écart brut est 26 mais dont le 26e anniversaire n'est pas encore passé.
+C03,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C03,rejeu,juste,936350,936350,
+C04,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C04,rejeu,juste,2826250,2826250,
+C05,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C05,rejeu,juste,38480,38480,
+C06,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C06,rejeu,juste,0,0,
+C07,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C07,rejeu,juste,13970,13970,
+C08,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C08,rejeu,juste,605580,605580,
+C09,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C09,rejeu,juste,487980,487980,
+C10,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C10,rejeu,faux,1918940,558980,"Les bornes sont construites avec l'année de la commande et le seul mois-jour de naissance, sans utiliser l'année de naissance pour vérifier l'âge ; des clients d'autres âges sont inclus."
+C11,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C11,rejeu,sql_invalide,,446690,"La requête est tronquée avant la fin de la dernière condition et ne ferme pas le WHERE ni ses parenthèses, d'où l'erreur incomplete input."
+C12,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C12,rejeu,juste,1666490,1666490,
+C13,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C13,rejeu,juste,107740,107740,
+C14,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C14,rejeu,juste,0,0,
+C15,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C15,rejeu,juste,168680,168680,
+C16,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C16,rejeu,juste,376740,376740,
+C17,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C17,rejeu,faux,152730,258180,"Le filtre exige un écart d'années de 25 avec anniversaire passé, mais oublie le cas écart de 26 avec anniversaire pas encore passé ; il sous-compte les clients de 25 ans."
+C18,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C18,rejeu,faux,39580,62480,"À la date de la commande, le filtre garde seulement l'écart d'années de 25 avec anniversaire passé et omet l'écart de 26 avant le 26e anniversaire ; le total est sous-estimé."
+C19,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C19,rejeu,juste,1990,1990,
+C20,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:dots-studio/dots-3-note-preview:free:C20,rejeu,juste,1106090,1106090,
+C01,openrouter:nex-agi/nex-n2.5-mini:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:nex-agi/nex-n2.5-mini:free:C01,rejeu,non_execute,,792800,"Exemple de fournisseur muet : erreur_acces — aucune requête produite, donc aucun chiffre (sans réponse)"
+C03,openrouter:poolside/laguna-s-2.1:free,traces/traces-pilote-2026-09-25.jsonl,L2:openrouter:poolside/laguna-s-2.1:free:C03,rejeu,non_execute,,936350,"Exemple de fournisseur muet : quota_sature — aucune requête produite, donc aucun chiffre (sans réponse)"

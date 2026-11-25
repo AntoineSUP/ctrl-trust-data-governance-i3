@@ -1,0 +1,29 @@
+lot modèle                                                      cas justes  faux sql inv. refusés non exéc. sans réf.
+---------------------------------------------------------------------------------------------------------------------
+  2 groq:allam-2-7b                                              20      7    10        3       0         0         0
+  2 groq:openai/gpt-oss-120b                                     20     20     0        0       0         0         0
+  2 groq:openai/gpt-oss-20b                                      20     18     2        0       0         0         0
+  2 groq:qwen/qwen3.8-27b                                        20     15     5        0       0         0         0
+  2 openrouter:cohere/north-mini-code:free                       20     13     5        2       0         0         0
+  2 openrouter:dots-studio/dots-3-note-preview:free              20     15     4        1       0         0         0
+  2 openrouter:inclusionai/ling-3.0-flash-fin:free               20     12     8        0       0         0         0
+  2 openrouter:inclusionai/ling-3.0-flash-sante:free             20     18     2        0       0         0         0
+  2 openrouter:nex-agi/nex-n2.5-mini:free                        20      0     0        0       0        20         0
+  2 openrouter:nex-agi/nex-n2.5-pro:free                         20      0     0        0       0        20         0
+  2 openrouter:nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free   20     18     0        2       0         0         0
+  2 openrouter:poolside/laguna-s-2.1:free                        20      7     3        2       0         8         0
+  2 openrouter:poolside/laguna-xs-2.1:free                       20      5     8        1       0         6         0
+  2 openrouter:stealth/space-bunny-alpha                         20     17     3        0       0         0         0
+
+lot famille de questions                                       cellules évaluées justes
+---------------------------------------------------------------------------------------
+  2 liste de produits                                                56       45     43
+  2 période                                                          84       67     66
+  2 période + âge au moment de la commande                           14        9      7
+  2 période + âge à une date de référence                            14       11      6
+  2 période + âge à une date de référence + liste de produits        28       22      9
+  2 âge au moment de la commande                                     14        9      4
+  2 âge à une date de référence                                      56       40     21
+  2 âge à une date de référence + liste de produits                  14       12      9
+
+{"base": "boutique.sqlite", "base_sha256": "0077e235adc2ca64", "traces_rejouees": 280, "references_lues": 20, "verdicts": {"juste": 165, "faux": 50, "sql_invalide": 11, "sql_refuse": 0, "non_execute": 54, "sans_reference": 0}, "requetes_executees": 215, "valeurs_identiques_a_la_trace": 215, "sortie": "rejeu-lot2.csv"}
