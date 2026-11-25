@@ -1,0 +1,5 @@
+date,type,enonce,preuve_ou_source,auteur,statut,remarque
+2026-11-25,fait,Contexte de travail : kit i3-kit-2026-10-19 ; essai étudié : les vingt questions C01 à C20 (lot 2) ; données inventées ; traces enregistrées le 25/09/2026 ; rejeu réalisé pendant la séance du 25/11/2026.,integrite-kit.json (ok: true) ; inventaire-traces.json (352 traces) ; COUNT(*) orders = 397 lignes,Noé,validé,
+2026-11-25,décision,Répartition des rôles : Antoine responsable de gouvernance ; Jacky référent données ; Noé référent contrôle ; Adem référent risques et éthique ; Kaïs porte-parole de la décision.,contributions.csv,Antoine,validé,
+2026-11-25,hypothèse,"Le tableau de bord du lundi porte sur la semaine écoulée, du lundi 00:00:00 UTC inclus au lundi suivant 00:00:00 UTC exclu.","perimetre-usage.md, rubrique 1",Antoine,à valider,Le cas ne précise pas la période
+2026-11-25,décision,Nom de l'équipe choisi : Ctrl+Trust (BDML2).,equipe.csv,Antoine,validé,

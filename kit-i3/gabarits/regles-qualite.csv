@@ -1,0 +1,2 @@
+id_regle,table,colonne,dimension,regle,requete_controle,seuil_acceptation,resultat_base,resultat_variante,action_si_ecart,responsable,frequence,preuve
+EX01,customers,customer_id,complétude,Exemple de format : identifiant client renseigné,SELECT COUNT(*) AS ecarts FROM customers WHERE customer_id IS NULL OR customer_id = '',0,,,,,,

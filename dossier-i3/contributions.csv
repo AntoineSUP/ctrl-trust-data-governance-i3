@@ -1,0 +1,11 @@
+membre,role,element_de_travail,fichier_et_emplacement,controle_par,date
+Antoine,Responsable de gouvernance,"Périmètre d'usage (rubriques 1, 2, 4) ; références série A (C01, C04, C05, C06, C07)",dossier-i3/perimetre-usage.md ; dossier-i3/reference-i3.csv,Kaïs,2026-11-25
+Antoine,Responsable de gouvernance,"Contrôle des références série B (C20, C03, C12, C13, C14) par une autre méthode (CSV)",dossier-i3/reference-i3.csv,,2026-11-25
+Jacky,Référent données,"Références série C (C02, C08, C09, C11, C16) ; dictionnaire de données (étape 4)",dossier-i3/reference-i3.csv ; dossier-i3/dictionnaire-donnees.csv,Adem,2026-11-25
+Jacky,Référent données,"Contrôle des références série D (C10, C15, C17, C18, C19) par une autre méthode (CSV)",dossier-i3/reference-i3.csv,,2026-11-25
+Noé,Référent contrôle,Contrôle du kit à l'ouverture ; matrice des responsabilités ; rejeu et accords (étape 3) ; règle de contrôle et d'escalade (étape 5),dossier-i3/integrite-kit.json ; dossier-i3/inventaire-traces.json ; dossier-i3/responsabilites.csv ; dossier-i3/politique-escalade.md,Antoine,2026-11-25
+Adem,Référent risques et éthique,"Références série D (C10, C15, C17, C18, C19) ; registre des risques (étape 4)",dossier-i3/reference-i3.csv ; dossier-i3/registre-risques.csv,Jacky,2026-11-25
+Adem,Référent risques et éthique,"Contrôle des références série C (C02, C08, C09, C11, C16) par une autre méthode (CSV)",dossier-i3/reference-i3.csv,,2026-11-25
+Kaïs,Porte-parole de la décision,"Références série B (C20, C03, C12, C13, C14) ; présentation P1 ; compte rendu de séance ; assemblage du dossier",dossier-i3/reference-i3.csv ; dossier-i3/compte-rendu-encadrement1.md,Antoine,2026-11-25
+Kaïs,Porte-parole de la décision,"Contrôle des références série A (C01, C04, C05, C06, C07) par une autre méthode (CSV)",dossier-i3/reference-i3.csv,,2026-11-25
+Noé,Référent contrôle,Suppléant pour l'assemblage du dossier,dossier-i3/,Kaïs,2026-11-25

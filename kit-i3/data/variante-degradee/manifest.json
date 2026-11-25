@@ -1,0 +1,19 @@
+{
+ "nature": "données synthétiques : seconde extraction fictive de la même boutique, préparée pour l'exercice de qualité des données",
+ "anomalies": "présentes ; leur nombre et leur nature ne sont pas communiqués",
+ "extraction_declaree_utc": "2026-10-02 08:00:00",
+ "schema": "mêmes tables et colonnes que data/boutique.sqlite, sans contrainte de clé ni de valeur",
+ "comptes": {
+  "product": 6,
+  "customers": 60,
+  "orders": 402,
+  "distinct_orders": 224
+ },
+ "sha256": {
+  "product.csv": "caf5e2e4074e429c504c141a534da6689d7e9b54b1fc3b36c03749be0b2320b7",
+  "customers.csv": "7fd4fe59832191d64ee4bacb0ce5f4e63d687762e859b66b51bcfa95b1d6e7c9",
+  "orders.csv": "7bbaadd483c8132a5e8b75d6295428df203d044052cdd7e17780387c603026cc",
+  "boutique-variante.sqlite": "f24d7c45bd75b352b9c96ff85c67aaa916ff3f4c74095dea28673ffac11c5c0c"
+ },
+ "regle": "ne jamais modifier ces fichiers ; écrire des règles qualité qui comptent les écarts et les exécuter avec controle-qualite.py"
+}

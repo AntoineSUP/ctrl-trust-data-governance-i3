@@ -1,0 +1,4 @@
+.DS_Store
+# Données personnelles de l'équipe : ne pas versionner
+dossier-i3/equipe.csv
+__pycache__/

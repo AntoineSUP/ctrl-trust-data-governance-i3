@@ -1,0 +1,15 @@
+activite,realise,approuve,consulte,informe,preuve_conservee,remarque
+Rédiger une requête de référence,Référent données,Référent contrôle,Analystes ; propriétaire des données de ventes,Contrôleur de gestion,"Requête SQL, résultat attendu et justification du calcul",
+Contrôler une référence par une méthode indépendante,Analystes,Référent contrôle,Référent données,Contrôleur de gestion,"Second calcul indépendant, comparaison des résultats et validation",Le second calcul est fait par une autre personne que l'auteur de la requête
+Valider le périmètre d'usage,Responsable de gouvernance,Directeur financier,Contrôleur de gestion ; référent risques et éthique,Équipe technique,Document de périmètre validé,
+Accorder ou retirer un accès à la base,Équipe technique,Propriétaire des données de ventes,DPO,Référent données,Demande d'accès validée et journal des modifications,
+Revoir les habilitations,Référent données,Propriétaire des données de ventes,DPO,Équipe technique,Registre des habilitations et compte rendu de revue,
+Modifier le message envoyé au modèle ou les conventions,Équipe technique,Référent contrôle,Référent données,Contrôleur de gestion,Historique des versions et résultats des tests de non-régression,
+Choisir ou remplacer un modèle du panel,Équipe technique,Directeur financier,Référent contrôle,Contrôleur de gestion,"Comparatif des modèles, résultats des tests et justification du choix",
+Accepter une réponse de l'assistant pour un usage donné,Contrôleur de gestion,Directeur financier,Référent contrôle,Direction générale,"Réponse, période, définition du chiffre et preuve de validation",
+Traiter une abstention ou un désaccord,Contrôleur de gestion,Directeur financier,Référent contrôle,Référent risques et éthique,"Trace du désaccord ou de l'abstention, calcul indépendant et décision",
+Déclarer et qualifier un incident,Contrôleur de gestion,Référent risques et éthique,Équipe technique ; référent données,Directeur financier,"Fiche d'incident, qualification, gravité et traces associées",Le contrôleur de gestion déclare ; le référent risques et éthique qualifie
+Décider d'une restriction ou d'un arrêt,Référent risques et éthique,Direction générale,Directeur financier,Équipe technique,Décision motivée et périmètre de la restriction,
+Corriger une anomalie de données,Analystes,Propriétaire des données de ventes,Référent données ; équipe technique,Contrôleur de gestion,"Description de l'anomalie, correction et résultat du contrôle",
+Archiver ou supprimer les traces,Équipe technique,Propriétaire des données de ventes,DPO,Référent contrôle,Journal d'archivage ou de suppression et justification de la durée de conservation,
+Autoriser la mise en service,Directeur financier,Direction générale,Référent contrôle ; référent risques et éthique ; DPO ; équipe technique,Contrôleur de gestion ; analystes,"Décision formalisée de mise en service, périmètre autorisé et résultats des tests",Le directeur financier propose ; seule la direction générale autorise

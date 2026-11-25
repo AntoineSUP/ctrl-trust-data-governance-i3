@@ -1,0 +1,11 @@
+objet,contenu,donnees_personnelles,finalite,creation,stockage,acces,duree_base_active,archivage_intermediaire,suppression_ou_anonymisation,responsable,justification,preuve
+Base de la boutique (extraction),,,,,,,,,,,,
+Nouvelle extraction ou variante,,,,,,,,,,,,
+Question posée par un utilisateur,,,,,,,,,,,,
+Message envoyé au modèle,,,,,,,,,,,,
+Requête SQL rendue et valeur obtenue,,,,,,,,,,,,
+Trace d'appel,,,,,,,,,,,,
+Échanges bruts avec le fournisseur,,,,,,,,,,,,
+Référence indépendante,,,,,,,,,,,,
+Décision et journal des décisions,,,,,,,,,,,,
+Fiche incident,,,,,,,,,,,,

@@ -1,0 +1,1 @@
+configuration,case_id,id_essai,modele,fournisseur,nature,tokens_entree,tokens_sortie,cout_natif_usd_ht,route_payante_de_comparaison,prix_entree_usd_ht_par_million,prix_sortie_usd_ht_par_million,date_prix,source_prix,equivalent_api_calcule_usd_ht,preuve,champs_manquants

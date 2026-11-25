@@ -1,0 +1,283 @@
+{
+ "kit": "Kit du projet I3, EFREI, Data Governance & IA responsable",
+ "version": "i3-kit-2026-10-19",
+ "date": "2026-10-19",
+ "reference_esilv": {
+  "release": "2026-10-14-students-1",
+  "commit": "a0cc1c3c",
+  "inventaire": "projects/enseignement/efrei/i3/produire-i3/data/references.json"
+ },
+ "base_sha256": "0077e235adc2ca647b484e3083c98a6d7cae3ef3655ce366a299caf13398fec2",
+ "prompt_user_template_sha256": "c9bb4f7c1548b11c16c4bcec222b694207495023ae93a74329e472a845bffbb1",
+ "fichiers": {
+  "README.md": {
+   "sha256": "ea211b937db12cf4e8c60c69e70b8ca33ee7d0a7dc9aea70211a12ebf12fd014",
+   "source": "commun/td/sources/README.md",
+   "operation": "rédaction I3"
+  },
+  "analyse-traces.py": {
+   "sha256": "039dd01aad43e3eed384a42f39e7a71e55344d3a844665e91c2be8f28b5fdbb5",
+   "source": "commun/td/sources/analyse-traces.py",
+   "operation": "rédaction I3"
+  },
+  "atelier-routage.py": {
+   "sha256": "036c124848f336a61d5c3aae72b0e5e7b84e01ff4ef49bb71311de94a0449cf7",
+   "source": "commun/td/sources/atelier-routage.py",
+   "operation": "rédaction I3"
+  },
+  "atelier-vote.py": {
+   "sha256": "fef00e2f9a48fd090f11d11c5ce398c6af4ec2faa98658bff1614de1c6888ac0",
+   "source": "commun/td/sources/atelier-vote.py",
+   "operation": "rédaction I3"
+  },
+  "controle-qualite.py": {
+   "sha256": "9c145b814c5707b0e6bf18cad7a0d618b5abd7ef121e2da0f90c90bf4a132afe",
+   "source": "commun/td/sources/controle-qualite.py",
+   "operation": "rédaction I3"
+  },
+  "data/boutique.sqlite": {
+   "sha256": "0077e235adc2ca647b484e3083c98a6d7cae3ef3655ce366a299caf13398fec2",
+   "source": "projects/enseignement/esilv/commun/td/kit-td1/data/boutique.sqlite",
+   "operation": "copie exacte ESILV"
+  },
+  "data/customers.csv": {
+   "sha256": "f3053b6a89036a9cc426649798283b70dc882fc2d18034cde52e85614252100a",
+   "source": "projects/enseignement/esilv/commun/td/kit-td1/data/customers.csv",
+   "operation": "copie exacte ESILV"
+  },
+  "data/manifest.json": {
+   "sha256": "4a0198d976aa30e64cc329f6a414aff08f7cd58a6acccad196e13ccbfcd9fa26",
+   "source": "projects/enseignement/esilv/commun/td/kit-td1/data/manifest.json",
+   "operation": "dérivé ESILV, clés enseignant retirées"
+  },
+  "data/orders.csv": {
+   "sha256": "5c92d3c6d2797b1ee007144c8d4bf2e43b8883037d893339d680205204988452",
+   "source": "projects/enseignement/esilv/commun/td/kit-td1/data/orders.csv",
+   "operation": "copie exacte ESILV"
+  },
+  "data/product.csv": {
+   "sha256": "f4b41301a5bc3e03362215448d67d2439fc38352436c6b4cda57b9f2b5797e64",
+   "source": "projects/enseignement/esilv/commun/td/kit-td1/data/product.csv",
+   "operation": "copie exacte ESILV"
+  },
+  "data/variante-degradee/boutique-variante.sqlite": {
+   "sha256": "f24d7c45bd75b352b9c96ff85c67aaa916ff3f4c74095dea28673ffac11c5c0c",
+   "source": "data/product.csv, data/customers.csv, data/orders.csv (base publiée)",
+   "operation": "généré : variante synthétique pour l'exercice de qualité, schéma sans contrainte"
+  },
+  "data/variante-degradee/customers.csv": {
+   "sha256": "7fd4fe59832191d64ee4bacb0ce5f4e63d687762e859b66b51bcfa95b1d6e7c9",
+   "source": "data/product.csv, data/customers.csv, data/orders.csv (base publiée)",
+   "operation": "généré : variante synthétique pour l'exercice de qualité, schéma sans contrainte"
+  },
+  "data/variante-degradee/manifest.json": {
+   "sha256": "7b10ee8ebca46bce92b3091b7a211c8349387056b1c8b60b9c376726a3762a1c",
+   "source": "data/product.csv, data/customers.csv, data/orders.csv (base publiée)",
+   "operation": "généré : variante synthétique pour l'exercice de qualité, schéma sans contrainte"
+  },
+  "data/variante-degradee/orders.csv": {
+   "sha256": "7bbaadd483c8132a5e8b75d6295428df203d044052cdd7e17780387c603026cc",
+   "source": "data/product.csv, data/customers.csv, data/orders.csv (base publiée)",
+   "operation": "généré : variante synthétique pour l'exercice de qualité, schéma sans contrainte"
+  },
+  "data/variante-degradee/product.csv": {
+   "sha256": "caf5e2e4074e429c504c141a534da6689d7e9b54b1fc3b36c03749be0b2320b7",
+   "source": "data/product.csv, data/customers.csv, data/orders.csv (base publiée)",
+   "operation": "généré : variante synthétique pour l'exercice de qualité, schéma sans contrainte"
+  },
+  "executer-requete.py": {
+   "sha256": "11e7afd33c35053ca992e497c6982afc52aaf21fadfadb04723f3c4a854968ca",
+   "source": "commun/td/sources/executer-requete.py",
+   "operation": "rédaction I3"
+  },
+  "gabarits/README.md": {
+   "sha256": "d5528a421047f05c8974867aadd1fcdf54269c2f5137a774aaaffc7736afad8a",
+   "source": "commun/td/sources/gabarits/README.md",
+   "operation": "rédaction I3"
+  },
+  "gabarits/calcul-cout.csv": {
+   "sha256": "b2333ec6534eac2b359489fb85c89be590146b44dd109677691d3d00041841c9",
+   "source": "commun/td/sources/gabarits/calcul-cout.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/comparaison-configurations.csv": {
+   "sha256": "72eb37f40d8a3cd50af16732c9713d0e99f223addfd00169a73898d3d0208888",
+   "source": "commun/td/sources/gabarits/comparaison-configurations.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/comparaison-modele-question.csv": {
+   "sha256": "5c132deb5ac2f952f08380b2e18a03eab4f1f25acc78ae0aeb34172eb72bf659",
+   "source": "commun/td/sources/gabarits/comparaison-modele-question.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/contributions.csv": {
+   "sha256": "1ac5aa483b88b18a3416ba9450f41cc3497acc2124ec76c583e8734d6091ca85",
+   "source": "commun/td/sources/gabarits/contributions.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/cycle-de-vie.csv": {
+   "sha256": "834755d370b4a9437296b61d3e137010b2184ad8fe841e3fa9244e8da302ff30",
+   "source": "commun/td/sources/gabarits/cycle-de-vie.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/declaration-ia.md": {
+   "sha256": "0f1aee84a5f7ad44bb79d56e1b5c7973534c6f5f6ca901d50fc4bd8ea7d24b48",
+   "source": "commun/td/sources/gabarits/declaration-ia.md",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/dictionnaire-donnees.csv": {
+   "sha256": "599063f7ee3120a7e09eceaf59d462091a6316982f7df4169d7db55ed2bb7fdf",
+   "source": "commun/td/sources/gabarits/dictionnaire-donnees.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/exemple-comparaison.md": {
+   "sha256": "4c2f7308dfa50c26a815c1f35625766697e0ef115f7057eb4c7d2bbb21b7ca69",
+   "source": "commun/td/sources/gabarits/exemple-comparaison.md",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/fiche-decision.md": {
+   "sha256": "7787f2ea100c3340d0c1454639d0069070829831f82fdec11d5b893e66d9732b",
+   "source": "commun/td/sources/gabarits/fiche-decision.md",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/fiche-incident.md": {
+   "sha256": "455e17374f439bd21530b5c94006791cab3c878cfefb3b5c35adff2ec2354089",
+   "source": "commun/td/sources/gabarits/fiche-incident.md",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/journal-decisions.csv": {
+   "sha256": "319900c479d985db61ae2352a721e7e2ab1b417a2969e75c143efca7d6983e56",
+   "source": "commun/td/sources/gabarits/journal-decisions.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/perimetre-usage.md": {
+   "sha256": "92aa107ee8e3930dd3bdb578102dd34ea3280066f45eda52120ecef6c02d3e0b",
+   "source": "commun/td/sources/gabarits/perimetre-usage.md",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/politique-escalade.md": {
+   "sha256": "803475d39a7fbeb76026bd47296502850d85592d877d6b6bc9fa29216dccad39",
+   "source": "commun/td/sources/gabarits/politique-escalade.md",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/registre-risques.csv": {
+   "sha256": "124855ee0326fce2d2f54c3b36e7173d714715ffcfa820c658f7837d854cfa1e",
+   "source": "commun/td/sources/gabarits/registre-risques.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/regles-qualite.csv": {
+   "sha256": "03784ad183dd2cd92329b4d19fe6ef7fae0add9be14d01f63440aefc15819a2e",
+   "source": "commun/td/sources/gabarits/regles-qualite.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/responsabilites.csv": {
+   "sha256": "9aaa0759128d12b1df248f210536ff2f7e931fb0775e44cbfb8c0e25aeb10e9c",
+   "source": "commun/td/sources/gabarits/responsabilites.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "gabarits/synthese-modeles.csv": {
+   "sha256": "9f9df6025c1589d02346d2de189c002c1baf2d0f63df71bc78c9bb6786a0be50",
+   "source": "projects/enseignement/esilv/commun/td/prototype-orchestrateur/resultats/traces-reelles.jsonl",
+   "operation": "généré : une ligne par modèle du lot 2, colonnes vides",
+   "gabarit": true
+  },
+  "gabarits/tests-vote.csv": {
+   "sha256": "2dcddcf3a43a123a5c3225067524c7a30598717850269ee28bb7786dd649ceb5",
+   "source": "commun/td/sources/gabarits/tests-vote.csv",
+   "operation": "rédaction I3",
+   "gabarit": true
+  },
+  "limites-des-vingt-cas.md": {
+   "sha256": "8407b4e6a047bd4b2cc992ce3019f3c5e03658236c9bc94d05545f341de5c2e7",
+   "source": "commun/td/sources/limites-des-vingt-cas.md",
+   "operation": "rédaction I3"
+  },
+  "methode-cout-risque.md": {
+   "sha256": "009dc0e9f8d58062d73d388d12f73e6ef806e33929389557d270429eaeea13b4",
+   "source": "commun/td/sources/methode-cout-risque.md",
+   "operation": "rédaction I3"
+  },
+  "portefeuille-modeles-2026-09-28.csv": {
+   "sha256": "33b277027777c0b0cad5a8c91a229a8c8ed09eb41b437be426e78bba124c02f1",
+   "source": "projects/enseignement/esilv/commun/td/kit-td1/portefeuille-modeles-2026-09-28.csv",
+   "operation": "copie exacte ESILV"
+  },
+  "portefeuille-modeles.md": {
+   "sha256": "de7097d11f4f77c4fb0e89a3940e833a0947c1b6482e030d0998352d9c572196",
+   "source": "projects/enseignement/esilv/commun/td/portefeuille-modeles.md",
+   "operation": "adaptation ESILV : deux passages sur les appels remplacés, tirets typographiques normalisés"
+  },
+  "protocole-analyse-traces.md": {
+   "sha256": "0b3498a85b709deec3fd85a7a773cd20856152fb859f577d3f1b4f02dedc7da3",
+   "source": "commun/td/sources/protocole-analyse-traces.md",
+   "operation": "rédaction I3, questions et message envoyé injectés depuis reference.py"
+  },
+  "questions-i3.json": {
+   "sha256": "0dce58bc28043f96514a67fbc9a659b956d446bcf599c14cb50db5be6ae1ba93",
+   "source": "projects/enseignement/esilv/commun/td/prototype-orchestrateur/reference.py",
+   "operation": "généré depuis les vingt cas de reference.py, en français, sans réponse"
+  },
+  "questions-i3.md": {
+   "sha256": "4e78bf5a02a58aa65091de38b59513be84c5a1baa2b322a434e03a84bd2c727f",
+   "source": "projects/enseignement/esilv/commun/td/prototype-orchestrateur/reference.py",
+   "operation": "généré depuis les vingt cas de reference.py, en français, sans réponse"
+  },
+  "reference-i3.csv": {
+   "sha256": "f45ec9053998e792348136f21b71d978bd4e3235e6f36d70ec37fa2a95909685",
+   "source": "projects/enseignement/esilv/commun/td/prototype-orchestrateur/reference.py",
+   "operation": "généré depuis les vingt cas de reference.py, en français, sans réponse",
+   "gabarit": true
+  },
+  "sandbox_sqlite.py": {
+   "sha256": "4072b04ae67420cdb2c1993fe9463ce113f5b2a9e6816e8c2f6677181e433cc0",
+   "source": "projects/enseignement/esilv/commun/td/kit-td1/sandbox_sqlite.py",
+   "operation": "copie exacte ESILV"
+  },
+  "schema.sql": {
+   "sha256": "fe25401e81549a61cbf074e2ceea9845430afebaa072e5ac6680136f3a0c0104",
+   "source": "projects/enseignement/esilv/commun/td/kit-td1/schema.sql",
+   "operation": "copie exacte ESILV"
+  },
+  "situations-fictives.md": {
+   "sha256": "2169a4f3ee357b6154538e41cf38685b5ed1d7528fd35d748d9c4e62f31ce04d",
+   "source": "commun/td/sources/situations-fictives.md",
+   "operation": "rédaction I3"
+  },
+  "sources-officielles.md": {
+   "sha256": "7870f6bc7cf78c6d459861bb23eab8ab7606dd0be5a143e5027e185395322486",
+   "source": "commun/td/sources/sources-officielles.md",
+   "operation": "rédaction I3"
+  },
+  "traces/traces-pilote-2026-09-25.csv": {
+   "sha256": "35c71ee5515b7f869abc34b4c325a0964bcc84ef622d57a32b62f7d22a58ac32",
+   "source": "projects/enseignement/esilv/commun/td/prototype-orchestrateur/resultats/traces-reelles.jsonl",
+   "operation": "dérivé ESILV : champs de référence et de verdict retirés, statuts traduits, nature historique"
+  },
+  "traces/traces-pilote-2026-09-25.jsonl": {
+   "sha256": "bd64ce7072ae522e7fb8d6c385641156ed24b79bae9ec74fc8ae35ecc336aa01",
+   "source": "projects/enseignement/esilv/commun/td/prototype-orchestrateur/resultats/traces-reelles.jsonl",
+   "operation": "dérivé ESILV : champs de référence et de verdict retirés, statuts traduits, nature historique"
+  },
+  "verifier-kit.py": {
+   "sha256": "ec7368b3545ae2a839b9bf4e1a4507eef0abd46db15643d055c4a3c83a1118c4",
+   "source": "commun/td/sources/verifier-kit.py",
+   "operation": "rédaction I3"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+table,colonne,type_sqlite,cle,definition_metier,unite_ou_format,valeurs_admises,regle_qualite,source,proprietaire,donnee_personnelle,sensibilite,conservation
+product,product_id,TEXT,clé primaire,,,,,,,,,
+product,price,INTEGER,,,,,,,,,,
+customers,customer_id,TEXT,clé primaire,,,,,,,,,
+customers,insert_date,TEXT,,,,,,,,,,
+customers,birth_date,TEXT,,,,,,,,,,
+orders,date,TEXT,,,,,,,,,,
+orders,order_id,TEXT,clé primaire avec product_id,,,,,,,,,
+orders,customer_id,TEXT,clé étrangère vers customers,,,,,,,,,
+orders,product_id,TEXT,clé primaire avec order_id ; clé étrangère vers product,,,,,,,,,
+orders,quantity_product,INTEGER,,,,,,,,,,

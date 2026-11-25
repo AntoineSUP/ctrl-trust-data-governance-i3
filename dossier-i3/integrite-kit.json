@@ -1,0 +1,41 @@
+{
+  "python": "3.12.4",
+  "sqlite": "3.45.3",
+  "version_kit": "i3-kit-2026-10-19",
+  "fichiers_inventories": 50,
+  "fichiers_verifies": 50,
+  "donnees": [
+    {
+      "fichier": "data/boutique.sqlite",
+      "sha256": "0077e235adc2ca647b484e3083c98a6d7cae3ef3655ce366a299caf13398fec2",
+      "ok": true
+    },
+    {
+      "fichier": "data/product.csv",
+      "sha256": "f4b41301a5bc3e03362215448d67d2439fc38352436c6b4cda57b9f2b5797e64",
+      "ok": true
+    },
+    {
+      "fichier": "data/customers.csv",
+      "sha256": "f3053b6a89036a9cc426649798283b70dc882fc2d18034cde52e85614252100a",
+      "ok": true
+    },
+    {
+      "fichier": "data/orders.csv",
+      "sha256": "5c92d3c6d2797b1ee007144c8d4bf2e43b8883037d893339d680205204988452",
+      "ok": true
+    },
+    {
+      "fichier": "schema.sql",
+      "sha256": "fe25401e81549a61cbf074e2ceea9845430afebaa072e5ac6680136f3a0c0104",
+      "ok": true
+    }
+  ],
+  "integrite_sqlite": true,
+  "cles_etrangeres": true,
+  "traces": 352,
+  "ajouts_dans_le_dossier": [],
+  "informations": [],
+  "erreurs": [],
+  "ok": true
+}

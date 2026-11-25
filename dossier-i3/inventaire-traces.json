@@ -1,0 +1,61 @@
+{
+ "fichier": "traces-pilote-2026-09-25.jsonl",
+ "traces": 352,
+ "cellules_uniques": 352,
+ "premiere_date_utc": "2026-09-25T12:50:20Z",
+ "derniere_date_utc": "2026-09-25T14:15:27Z",
+ "par_lot": {
+  "1": 72,
+  "2": 280
+ },
+ "modeles_par_lot": {
+  "1": 24,
+  "2": 14
+ },
+ "questions_par_lot": {
+  "1": [
+   "C01",
+   "C02",
+   "C03"
+  ],
+  "2": [
+   "C01",
+   "C02",
+   "C03",
+   "C04",
+   "C05",
+   "C06",
+   "C07",
+   "C08",
+   "C09",
+   "C10",
+   "C11",
+   "C12",
+   "C13",
+   "C14",
+   "C15",
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C20"
+  ]
+ },
+ "par_fournisseur": {
+  "groq": 92,
+  "openrouter": 260
+ },
+ "statut_execution": {
+  "erreur_acces": 48,
+  "erreur_fournisseur": 1,
+  "quota_sature": 26,
+  "resultat_nul": 8,
+  "sql_invalide": 14,
+  "valeur_obtenue": 255
+ },
+ "cellules_avec_reprise": 46,
+ "cout_natif_renseigne": 187,
+ "nature": {
+  "historique": 352
+ }
+}
